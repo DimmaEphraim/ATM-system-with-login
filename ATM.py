@@ -1,7 +1,5 @@
-from os import system
 import time
 import random
-from typing import Text, TextIO, Type
 
 # ATM Siytem
 def plus(Mny_set, Add_mny):
