@@ -37,7 +37,7 @@ time.sleep(1)
 
 while True:
     print("\n\n\n\n\n\n|===========Fake ATM Menu===========|")
-    print("1. Cheak Money")
+    print("1. Check Money")
     print("2. Money Tube")
     print("3. Withdraw Money")
     Atm_awl=int(input("Select Option: "))
@@ -50,7 +50,7 @@ while True:
             print("Your Money:", Mny_plyr)
             time.sleep(3)
         else:
-            print("Infalid Login Fake ATM", +lgin_atm1)
+            print("Invalid Login Fake ATM", +lgin_atm1)
 
     elif Atm_awl==2:
         lgin_atm2=int(input("Login ATM: "))
@@ -60,7 +60,7 @@ while True:
             print("Done!, Now Your Fake Money:", plus(Mny_set, Add_mny))
             time.sleep(3)
         else:
-            print("Infalid Login ATM", +lgin_atm2)
+            print("Invalid Login ATM", +lgin_atm2)
 
     elif Atm_awl==3:
         lgin_atm3=int(input("Login ATM: "))
@@ -70,4 +70,4 @@ while True:
             print("Done!, Now Your Fake Money", minus(Mny_set, Rmv_mny))
             time.sleep(3)
         else:
-            print("Infalid Login ATM", +lgin_atm3)
+            print("Invalid Login ATM", +lgin_atm3)
